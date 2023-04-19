@@ -4,5 +4,5 @@ def write_to_file_overwrite(lines, filepath):
 
 def write_to_file_append(lines, filepath):
 
-    with open(filepath,"a+") as the_file:
+    with open(filepath,"a") as the_file:
         the_file.writelines(lines)
